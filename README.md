@@ -1,0 +1,2 @@
+# Pa-Panalogi-
+patologi anatomi
