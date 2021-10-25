@@ -1,4 +1,4 @@
-# Lab-Panalogi
+# Lab-Patologi
 Aplikasi Lab-Patologi
 Fitur :
 - Mendaftarkan pemeriksaan pasien
