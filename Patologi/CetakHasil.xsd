@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CetakHasil" targetNamespace="http://tempuri.org/CetakHasil.xsd" xmlns:mstns="http://tempuri.org/CetakHasil.xsd" xmlns="http://tempuri.org/CetakHasil.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.Patologi.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" PropertyReference="ApplicationSettings.Patologi.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_pasienpatologidetailTableAdapter" GeneratorDataComponentClassName="vw_pasienpatologidetailTableAdapter" Name="vw_pasienpatologidetail" UserDataComponentName="vw_pasienpatologidetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `vw_pasienpatologidetail`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kdTarif" DataSetColumn="kdTarif" />
+              <Mapping SourceColumn="tindakan" DataSetColumn="tindakan" />
+              <Mapping SourceColumn="PPA" DataSetColumn="PPA" />
+              <Mapping SourceColumn="tarif" DataSetColumn="tarif" />
+              <Mapping SourceColumn="statusTindakan" DataSetColumn="statusTindakan" />
+              <Mapping SourceColumn="tglMulaiLayaniPasien" DataSetColumn="tglMulaiLayaniPasien" />
+              <Mapping SourceColumn="tglSelesaiLayaniPasien" DataSetColumn="tglSelesaiLayaniPasien" />
+              <Mapping SourceColumn="idDetailPARajal" DataSetColumn="idDetailPARajal" />
+              <Mapping SourceColumn="noTindakanPARajal" DataSetColumn="noTindakanPARajal" />
+              <Mapping SourceColumn="jumlahTindakan" DataSetColumn="jumlahTindakan" />
+              <Mapping SourceColumn="totalTarif" DataSetColumn="totalTarif" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_cetakhasilpatologiTableAdapter" GeneratorDataComponentClassName="vw_cetakhasilpatologiTableAdapter" Name="vw_cetakhasilpatologi" UserDataComponentName="vw_cetakhasilpatologiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `vw_cetakhasilpatologi`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="noRekamedis" DataSetColumn="noRekamedis" />
+              <Mapping SourceColumn="noRegistrasiPARajal" DataSetColumn="noRegistrasiPARajal" />
+              <Mapping SourceColumn="nmPasien" DataSetColumn="nmPasien" />
+              <Mapping SourceColumn="jenisKelamin" DataSetColumn="jenisKelamin" />
+              <Mapping SourceColumn="tglLahir" DataSetColumn="tglLahir" />
+              <Mapping SourceColumn="alamat" DataSetColumn="alamat" />
+              <Mapping SourceColumn="namapetugasMedis" DataSetColumn="namapetugasMedis" />
+              <Mapping SourceColumn="asalrs" DataSetColumn="asalrs" />
+              <Mapping SourceColumn="asalpengirim" DataSetColumn="asalpengirim" />
+              <Mapping SourceColumn="tglTerimaSediaan" DataSetColumn="tglTerimaSediaan" />
+              <Mapping SourceColumn="tglHasil" DataSetColumn="tglHasil" />
+              <Mapping SourceColumn="noPA" DataSetColumn="noPA" />
+              <Mapping SourceColumn="lokalisasi" DataSetColumn="lokalisasi" />
+              <Mapping SourceColumn="diagnosa" DataSetColumn="diagnosa" />
+              <Mapping SourceColumn="bahan" DataSetColumn="bahan" />
+              <Mapping SourceColumn="makroskopik" DataSetColumn="makroskopik" />
+              <Mapping SourceColumn="mikroskopik" DataSetColumn="mikroskopik" />
+              <Mapping SourceColumn="kesimpulan" DataSetColumn="kesimpulan" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CetakHasil" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CetakHasil" msprop:Generator_UserDSName="CetakHasil">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_pasienpatologidetail" msprop:Generator_TableClassName="vw_pasienpatologidetailDataTable" msprop:Generator_TableVarName="tablevw_pasienpatologidetail" msprop:Generator_RowChangedName="vw_pasienpatologidetailRowChanged" msprop:Generator_TablePropName="vw_pasienpatologidetail" msprop:Generator_RowDeletingName="vw_pasienpatologidetailRowDeleting" msprop:Generator_RowChangingName="vw_pasienpatologidetailRowChanging" msprop:Generator_RowEvHandlerName="vw_pasienpatologidetailRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_pasienpatologidetailRowDeleted" msprop:Generator_RowClassName="vw_pasienpatologidetailRow" msprop:Generator_UserTableName="vw_pasienpatologidetail" msprop:Generator_RowEvArgName="vw_pasienpatologidetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kdTarif" msprop:Generator_ColumnVarNameInTable="columnkdTarif" msprop:Generator_ColumnPropNameInRow="kdTarif" msprop:Generator_ColumnPropNameInTable="kdTarifColumn" msprop:Generator_UserColumnName="kdTarif" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tindakan" msprop:Generator_ColumnVarNameInTable="columntindakan" msprop:Generator_ColumnPropNameInRow="tindakan" msprop:Generator_ColumnPropNameInTable="tindakanColumn" msprop:Generator_UserColumnName="tindakan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PPA" msprop:Generator_ColumnVarNameInTable="columnPPA" msprop:Generator_ColumnPropNameInRow="PPA" msprop:Generator_ColumnPropNameInTable="PPAColumn" msprop:Generator_UserColumnName="PPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tarif" msprop:Generator_ColumnVarNameInTable="columntarif" msprop:Generator_ColumnPropNameInRow="tarif" msprop:Generator_ColumnPropNameInTable="tarifColumn" msprop:Generator_UserColumnName="tarif" type="xs:double" minOccurs="0" />
+              <xs:element name="statusTindakan" msprop:Generator_ColumnVarNameInTable="columnstatusTindakan" msprop:Generator_ColumnPropNameInRow="statusTindakan" msprop:Generator_ColumnPropNameInTable="statusTindakanColumn" msprop:Generator_UserColumnName="statusTindakan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tglMulaiLayaniPasien" msprop:Generator_ColumnVarNameInTable="columntglMulaiLayaniPasien" msprop:Generator_ColumnPropNameInRow="tglMulaiLayaniPasien" msprop:Generator_ColumnPropNameInTable="tglMulaiLayaniPasienColumn" msprop:Generator_UserColumnName="tglMulaiLayaniPasien" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tglSelesaiLayaniPasien" msprop:Generator_ColumnVarNameInTable="columntglSelesaiLayaniPasien" msprop:Generator_ColumnPropNameInRow="tglSelesaiLayaniPasien" msprop:Generator_ColumnPropNameInTable="tglSelesaiLayaniPasienColumn" msprop:Generator_UserColumnName="tglSelesaiLayaniPasien" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="idDetailPARajal" msprop:Generator_ColumnVarNameInTable="columnidDetailPARajal" msprop:Generator_ColumnPropNameInRow="idDetailPARajal" msprop:Generator_ColumnPropNameInTable="idDetailPARajalColumn" msprop:Generator_UserColumnName="idDetailPARajal" type="xs:int" />
+              <xs:element name="noTindakanPARajal" msprop:Generator_ColumnVarNameInTable="columnnoTindakanPARajal" msprop:Generator_ColumnPropNameInRow="noTindakanPARajal" msprop:Generator_ColumnPropNameInTable="noTindakanPARajalColumn" msprop:Generator_UserColumnName="noTindakanPARajal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlahTindakan" msprop:Generator_ColumnVarNameInTable="columnjumlahTindakan" msprop:Generator_ColumnPropNameInRow="jumlahTindakan" msprop:Generator_ColumnPropNameInTable="jumlahTindakanColumn" msprop:Generator_UserColumnName="jumlahTindakan" type="xs:int" minOccurs="0" />
+              <xs:element name="totalTarif" msprop:Generator_ColumnVarNameInTable="columntotalTarif" msprop:Generator_ColumnPropNameInRow="totalTarif" msprop:Generator_ColumnPropNameInTable="totalTarifColumn" msprop:Generator_UserColumnName="totalTarif" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vw_cetakhasilpatologi" msprop:Generator_TableClassName="vw_cetakhasilpatologiDataTable" msprop:Generator_TableVarName="tablevw_cetakhasilpatologi" msprop:Generator_TablePropName="vw_cetakhasilpatologi" msprop:Generator_RowDeletingName="vw_cetakhasilpatologiRowDeleting" msprop:Generator_RowChangingName="vw_cetakhasilpatologiRowChanging" msprop:Generator_RowEvHandlerName="vw_cetakhasilpatologiRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_cetakhasilpatologiRowDeleted" msprop:Generator_UserTableName="vw_cetakhasilpatologi" msprop:Generator_RowChangedName="vw_cetakhasilpatologiRowChanged" msprop:Generator_RowEvArgName="vw_cetakhasilpatologiRowChangeEvent" msprop:Generator_RowClassName="vw_cetakhasilpatologiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="noRekamedis" msprop:Generator_ColumnVarNameInTable="columnnoRekamedis" msprop:Generator_ColumnPropNameInRow="noRekamedis" msprop:Generator_ColumnPropNameInTable="noRekamedisColumn" msprop:Generator_UserColumnName="noRekamedis">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="noRegistrasiPARajal" msprop:Generator_ColumnVarNameInTable="columnnoRegistrasiPARajal" msprop:Generator_ColumnPropNameInRow="noRegistrasiPARajal" msprop:Generator_ColumnPropNameInTable="noRegistrasiPARajalColumn" msprop:Generator_UserColumnName="noRegistrasiPARajal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nmPasien" msprop:Generator_ColumnVarNameInTable="columnnmPasien" msprop:Generator_ColumnPropNameInRow="nmPasien" msprop:Generator_ColumnPropNameInTable="nmPasienColumn" msprop:Generator_UserColumnName="nmPasien" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jenisKelamin" msprop:Generator_ColumnVarNameInTable="columnjenisKelamin" msprop:Generator_ColumnPropNameInRow="jenisKelamin" msprop:Generator_ColumnPropNameInTable="jenisKelaminColumn" msprop:Generator_UserColumnName="jenisKelamin" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tglLahir" msprop:Generator_ColumnVarNameInTable="columntglLahir" msprop:Generator_ColumnPropNameInRow="tglLahir" msprop:Generator_ColumnPropNameInTable="tglLahirColumn" msprop:Generator_UserColumnName="tglLahir" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="alamat" msprop:Generator_ColumnVarNameInTable="columnalamat" msprop:Generator_ColumnPropNameInRow="alamat" msprop:Generator_ColumnPropNameInTable="alamatColumn" msprop:Generator_UserColumnName="alamat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namapetugasMedis" msprop:Generator_ColumnVarNameInTable="columnnamapetugasMedis" msprop:Generator_ColumnPropNameInRow="namapetugasMedis" msprop:Generator_ColumnPropNameInTable="namapetugasMedisColumn" msprop:Generator_UserColumnName="namapetugasMedis" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="asalrs" msprop:Generator_ColumnVarNameInTable="columnasalrs" msprop:Generator_ColumnPropNameInRow="asalrs" msprop:Generator_ColumnPropNameInTable="asalrsColumn" msprop:Generator_UserColumnName="asalrs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="asalpengirim" msprop:Generator_ColumnVarNameInTable="columnasalpengirim" msprop:Generator_ColumnPropNameInRow="asalpengirim" msprop:Generator_ColumnPropNameInTable="asalpengirimColumn" msprop:Generator_UserColumnName="asalpengirim" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tglTerimaSediaan" msprop:Generator_ColumnVarNameInTable="columntglTerimaSediaan" msprop:Generator_ColumnPropNameInRow="tglTerimaSediaan" msprop:Generator_ColumnPropNameInTable="tglTerimaSediaanColumn" msprop:Generator_UserColumnName="tglTerimaSediaan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tglHasil" msprop:Generator_ColumnVarNameInTable="columntglHasil" msprop:Generator_ColumnPropNameInRow="tglHasil" msprop:Generator_ColumnPropNameInTable="tglHasilColumn" msprop:Generator_UserColumnName="tglHasil" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="noPA" msprop:Generator_ColumnVarNameInTable="columnnoPA" msprop:Generator_ColumnPropNameInRow="noPA" msprop:Generator_ColumnPropNameInTable="noPAColumn" msprop:Generator_UserColumnName="noPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lokalisasi" msprop:Generator_ColumnVarNameInTable="columnlokalisasi" msprop:Generator_ColumnPropNameInRow="lokalisasi" msprop:Generator_ColumnPropNameInTable="lokalisasiColumn" msprop:Generator_UserColumnName="lokalisasi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="diagnosa" msprop:Generator_ColumnVarNameInTable="columndiagnosa" msprop:Generator_ColumnPropNameInRow="diagnosa" msprop:Generator_ColumnPropNameInTable="diagnosaColumn" msprop:Generator_UserColumnName="diagnosa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bahan" msprop:Generator_ColumnVarNameInTable="columnbahan" msprop:Generator_ColumnPropNameInRow="bahan" msprop:Generator_ColumnPropNameInTable="bahanColumn" msprop:Generator_UserColumnName="bahan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="makroskopik" msprop:Generator_ColumnVarNameInTable="columnmakroskopik" msprop:Generator_ColumnPropNameInRow="makroskopik" msprop:Generator_ColumnPropNameInTable="makroskopikColumn" msprop:Generator_UserColumnName="makroskopik" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mikroskopik" msprop:Generator_ColumnVarNameInTable="columnmikroskopik" msprop:Generator_ColumnPropNameInRow="mikroskopik" msprop:Generator_ColumnPropNameInTable="mikroskopikColumn" msprop:Generator_UserColumnName="mikroskopik" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kesimpulan" msprop:Generator_ColumnVarNameInTable="columnkesimpulan" msprop:Generator_ColumnPropNameInRow="kesimpulan" msprop:Generator_ColumnPropNameInTable="kesimpulanColumn" msprop:Generator_UserColumnName="kesimpulan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
