@@ -1,2 +1,5 @@
-# Pa-Panalogi-
-patologi anatomi
+# Lab-Panalogi
+Aplikasi Lab-Patologi
+Fitur :
+- Mendaftarkan pemeriksaan pasien
+- Menulis hasil pemeriksaan
